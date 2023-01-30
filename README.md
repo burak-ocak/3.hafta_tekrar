@@ -1,1 +1,1 @@
-# 3.hafta_tekrar
+Ders içerisinde yapılan uygulamaları tekrar etmek amacıyla oluşturulmuş bir uygulama projesidir.
