@@ -1,15 +1,3 @@
-function sonucUret(deneme){
-    let mat = Math.floor(Math.random() * 3);
-    if(mat === 0){
-        deneme.innerHTML = "Kağıt"
-    }
-    if(mat === 1){
-        deneme.innerHTML = "Makas"
-    }
-    if(mat === 2){
-        deneme.innerHTML = "Tas"
-    }
-}
 
 
 let kutu1 = document.createElement("div");
@@ -32,3 +20,17 @@ btn.addEventListener("click", function(){
     sonucUret(kutu1)
     sonucUret(kutu2)
 })
+
+
+function sonucUret(deneme){
+    let mat = Math.floor(Math.random() * 3);
+    if(mat === 0){
+        deneme.innerHTML = "Kağıt"
+    }
+    if(mat === 1){
+        deneme.innerHTML = "Makas"
+    }
+    if(mat === 2){
+        deneme.innerHTML = "Tas"
+    }
+}
